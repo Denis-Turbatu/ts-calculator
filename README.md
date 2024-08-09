@@ -15,7 +15,7 @@ Extra:
 
 # INPUT
 
-[] Creare 3 variabili dentro i paramtri della funzione: numero1, numero2, operatore
+[X] Creare 3 variabili dentro i paramtri della funzione: numero1, numero2, operatore
 
 # LOGICA
 
