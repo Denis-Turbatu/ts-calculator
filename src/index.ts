@@ -1,15 +1,26 @@
 // Creazione struttura della funzione
-function calculate(num1: number, num2: number, operator: string): number {
- 
-    const operators: { [operator: string]: string} = {
-        '+': '+',
-        '-': '-',
-        '*': '*',
-        'x': '*',
-        '/': '/',
-    }
+function calculate(num1: number, num2: number, operator: string): number | string {
 
-    
- 
-    return ;
+    switch(operator){
+        case '+': 
+            return num1 + num2;
+            
+            break;
+        case '-': 
+            return num1 - num2;
+            
+            break;
+        case '*': 
+            return num1 * num2;
+            
+            break;
+        case '/': 
+            return num1 / num2;
+            
+            break;
+        default: 
+            return "Non hai inserito un operatore valido!";
+
+            break;
+    }
 }
