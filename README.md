@@ -19,8 +19,9 @@ Extra:
 
 # LOGICA
 
-[] Prendere in input il primo numero
-[] Rimanere in attesa dell'operatore (con possibilità di cambiarlo)
-[] Rimanere in attesa per il secondo numero
+[X] Importare la libreria per supportare gli input dell'utente da terminale
+[X] Prendere in input il primo numero
+[X] Rimanere in attesa dell'operatore
+[X] Rimanere in attesa per il secondo numero
 [] Eseguire l'operazione matemetica
 [] Ritornare il risultato finale
