@@ -1,3 +1,27 @@
+# ISTRUZIONI
+
+## Attenzione
+> Nota: Il codice funziona attualmente solo da terminale.
+
+## Prerequisiti:
+- Node.js installato
+- VSCode con estensione: Live Server (non necessario vista la mancata parte grafica)
+
+## Uso
+Per eseguire il codice lanciare i seguenti comandi:
+
+- Installazione delle dipendenze:
+    ```node
+    npm install
+- Compilazione del file TypeScript tramite tsconfig.json:
+    ```typescript
+    tsc
+- Oppure compilazione del file specifico ***(questo è solo a scopo informativo. Entrambi i comandi sono validi per la giusta compilazione)***:
+    ```typescript
+    tsc ./src/index.ts --outDir ./dist
+- Esecuzione del codice JavaScript generato
+    ```node
+    node ./src/index.js
 # CONSEGNA
 
 Esercizio 1: Calcolatrice flessibile
@@ -23,5 +47,5 @@ Extra:
 [X] Prendere in input il primo numero
 [X] Rimanere in attesa dell'operatore
 [X] Rimanere in attesa per il secondo numero
-[] Eseguire l'operazione matemetica
-[] Ritornare il risultato finale
+[X] Eseguire l'operazione matemetica
+[X] Ritornare il risultato finale
