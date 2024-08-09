@@ -28,18 +28,18 @@ Esercizio 1: Calcolatrice flessibile
 
 Creare uno script TS per:
 
-    Definire una funzione calculate che accetta due numeri e un operatore (+, -, *, /).
-    Utilizzare un'unione di tipi per rappresentare l'operatore.
-    Implementare una logica che esegua l'operazione corrispondente all'operatore fornito.
-    Gestire i casi di divisione per zero utilizzando un type guard.
+- Definire una funzione calculate che accetta due numeri e un operatore (+, -, *, /).
+- Utilizzare un'unione di tipi per rappresentare l'operatore.
+- Implementare una logica che esegua l'operazione corrispondente all'operatore fornito.
+- Gestire i casi di divisione per zero utilizzando un type guard.
 
 Extra: 
-    Aggiungere un controllo per verificare se gli input sono effettivamente dei numeri.
-    Spostare il programma in un'interfaccia grafica
+- Aggiungere un controllo per verificare se gli input sono effettivamente dei numeri.
+- Spostare il programma in un'interfaccia grafica
 
 # INPUT
 
-[X] Creare 3 variabili dentro i paramtri della funzione: numero1, numero2, operatore
+[X] Creare 3 variabili dentro i parametri della funzione: numero1, numero2, operatore
 
 # LOGICA
 
