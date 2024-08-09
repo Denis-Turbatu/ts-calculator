@@ -25,4 +25,5 @@ function calculate(num1, num2, operator) {
 var numberOne = Number(readlineSync.question("Inserisci il primo numero: "));
 var signOpereator = readlineSync.question("Che operazione vuoi svolgere: ");
 var numberTwo = Number(readlineSync.question("Inserisci il secondo numero: "));
-calculate(numberOne, numberTwo, signOpereator);
+var result = calculate(numberOne, numberTwo, signOpereator);
+console.log(result);
