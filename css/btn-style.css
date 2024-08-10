@@ -1,0 +1,14 @@
+.ms-btn{
+    min-width: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 10px;
+    margin: 2px;
+    width: calc(100% / 3 - 4px);
+    border-radius: 5px;
+}
+
+.ms-operator-btn{
+    width: calc(100% - 8px);
+}

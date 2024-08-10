@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx tailwindcss -i ./input.css -o ./css/style.css --minify",
+    "watch": "npx tailwindcss -i ./input.css -o ./css/style.css --watch --minify"
   },
   "keywords": [],
   "author": "",
@@ -11,6 +13,7 @@
   "description": "",
   "devDependencies": {
     "@types/readline-sync": "^1.4.8",
+    "tailwindcss": "^3.4.9",
     "typescript": "^5.5.4"
   },
   "dependencies": {

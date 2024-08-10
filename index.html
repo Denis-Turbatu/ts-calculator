@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calcolatrice</title>
+    <link rel="stylesheet" href="./css/btn-style.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="w-full h-screen bg-cyan-500 flex justify-center items-center">
+        <!-- Calcolatrice -->
+        <div class="w-[360px] text-white bg-raisin p-2 rounded-lg">
+            <!-- Barra d'azione -->
+            <div class="flex justify-between items-center p-2">
+                <span>Calcolatrice</span>
+                <ul class="flex gap-10 list-none">
+                    <li>-</li>
+                    <li>[]</li>
+                    <li>X</li>
+                </ul>
+            </div>
+            <!-- Display -->
+            <div class="bg-raisin py-10 flex justify-end">
+                <span class="me-3 text-5xl font-semibold">0</span>
+            </div>
+            <!-- Tastiera -->
+            <div class="ms-tastiera flex">
+                <div class="w-9/12 flex flex-wrap">
+                    <div class="ms-btn bg-black-olive hover:bg-charcoal">7</div>
+                    <div class="ms-btn bg-black-olive hover:bg-charcoal">8</div>
+                    <div class="ms-btn bg-black-olive hover:bg-charcoal">9</div>
+                    <div class="ms-btn bg-black-olive hover:bg-charcoal">4</div>
+                    <div class="ms-btn bg-black-olive hover:bg-charcoal">5</div>
+                    <div class="ms-btn bg-black-olive hover:bg-charcoal">6</div>
+                    <div class="ms-btn bg-black-olive hover:bg-charcoal">1</div>
+                    <div class="ms-btn bg-black-olive hover:bg-charcoal">2</div>
+                    <div class="ms-btn bg-black-olive hover:bg-charcoal">3</div>
+                    <div class="ms-btn bg-black-olive hover:bg-charcoal">0</div>
+                    <div class="ms-btn bg-black-olive hover:bg-charcoal">.</div>
+                    <div class="ms-btn bg-light-picton hover:bg-picton text-raisin">=</div>
+                </div>
+                <div class="w-3/12 flex flex-col">
+                    <div class="ms-btn ms-operator-btn bg-charcoal hover:bg-black-olive">+</div>
+                    <div class="ms-btn ms-operator-btn bg-charcoal hover:bg-black-olive">-</div>
+                    <div class="ms-btn ms-operator-btn bg-charcoal hover:bg-black-olive">X</div>
+                    <div class="ms-btn ms-operator-btn bg-charcoal hover:bg-black-olive">/</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
